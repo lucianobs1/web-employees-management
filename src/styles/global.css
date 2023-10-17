@@ -1,0 +1,23 @@
+:root {
+  --background-primary: #0e1217;
+  --background-secondary: #1c1f26;
+  --background-tertiary: #17191f;
+
+  --text-color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--background-primary);
+  color: var(--text-color);
+  font-family: Ubuntu, Arial;
+}
+
+button {
+  cursor: pointer;
+}
