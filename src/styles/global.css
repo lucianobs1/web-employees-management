@@ -4,6 +4,10 @@
   --background-tertiary: #17191f;
 
   --text-color: #fff;
+  --text-color-secondary: #e3e3e3;
+  --text-color-tertiary: #bebaba;
+
+  --text-primary: #fb528f;
 }
 
 * {

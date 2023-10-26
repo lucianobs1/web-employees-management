@@ -1,3 +1,40 @@
-.container {
-  margin: 0 auto;
+.title {
+  color: var(--text-color-secondary);
+}
+
+.dashboard_container header {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  text-align: center;
+}
+
+.dashboard_container header h3 {
+  font-size: 1.3rem;
+  color: var(--text-color);
+  font-weight: normal;
+}
+
+.dashboard_container header span {
+  display: block;
+  font-size: 4rem;
+  margin-top: 8px;
+
+  text-decoration: none;
+  background: -webkit-linear-gradient(#ce3df3 0%, #fc538d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.dashboard_container header > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--background-secondary);
+  padding: 1rem;
+  width: 330px;
+  height: 230px;
+  border-radius: 6px;
+  margin-top: 2rem;
 }
